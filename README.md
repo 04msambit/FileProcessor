@@ -29,9 +29,11 @@ We have used 3 separate queues to store the names of the files. Each Thread proc
 
 # Tests Carried Out
 
+```
 1 - Add 3 text files of each group in the folder
 2 - Start the process
 3 - Verify the .out files are created in the same folder
 4 - Add new files while the process is running
 5 - The .out files corresponding to new files should be created
+```
 
