@@ -2,8 +2,8 @@
 Process Files in a Directory
 
 This helps to process files in the current directory and apply a Lower Case Transformation to the contents of the file.
-Once the transformation is applied an output file is created with a .out extension. This is a continuous running process and
-new files can be added to the directory as the process is run.
+Once the transformation is applied an output file is created with an .out extension. This is a continuous running process and
+new files can be added to the directory at the runtime.
 
 The program exits if there is an Exception or the user exits is forcefully
 
@@ -25,7 +25,7 @@ Once the above is executed the .out files will be created in the directory
 # Program Logic
 
 Since we have been provided with 3 groups of files, we have created a Thread Pool of size 3 which applies the transformation on each of the groups
-We have used 3 separate queues to store the names of the files. Each Thread process a separate queue.
+We have used 3 separate queues to store the names of the files. Each Thread processes a separate queue.
 
 # Tests Carried Out
 
